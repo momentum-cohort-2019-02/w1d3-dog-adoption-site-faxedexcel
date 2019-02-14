@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Open Sans', Oswald;
+    font-family: 'Open Sans';
 }
 
 header {
@@ -28,7 +28,23 @@ header {
 .filters_box {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+}
+
+.gender {
+    margin-right: 2rem;
+}
+
+.age {
+    margin-right: 2rem;
+}
+
+.size {
+    margin-right: 2rem;
+}
+
+.personality_traits {
+    margin-right: 2rem;
 }
 
 .filter_title {
@@ -49,7 +65,7 @@ header {
 
 .image {
     width: 100%; 
-    height: auto;
+    /* height: auto; */
 }
 
 .dog_name {
@@ -76,42 +92,47 @@ header {
     margin-top: 2rem;
     display: flex;
     justify-content: space-between;
+    height: 15rem;
 }
 
 .donate {
     width: 33.33%;
-    height: 300px;
     text-align: center;
-    padding-top: 8em;
+    line-height: 15rem;
     color: white;
     background-image: url(starter_files/images/donate.jpg);
-    background-color: rgb(167, 166, 242);
-    opacity: 1;
+    background-color: rgb(100, 114, 240);
+    background-blend-mode: overlay;
+    background-position: center;
 }
 
 .volunteer {
     width: 33.33%;
-    height: 300px;
     text-align: center;
-    padding-top: 8em;
+    line-height: 15rem;
     color: white;
     background-image: url(starter_files/images/volunteer.jpg);
+    background-color: rgb(100, 114, 240); 
+    background-blend-mode: overlay;
+    background-position: center;
 }
 
 .our_location {
     width: 33.33%;
-    height: 300px;
     text-align: center;
-    padding-top: 8em;
+    line-height: 15rem;
     color: white;
     background-image: url(starter_files/images/location.png);
+    background-color: rgb(100, 114, 240); 
+    background-blend-mode: overlay;
+    background-position: center;
 }
 
-.nav a:-webkit-any-link {
+.nav a {
     color: white;
     cursor: pointer;
     text-decoration: none;
-    font-size: 2rem;
+    font-size: auto;
 }
 
 .transparent {
