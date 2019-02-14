@@ -31,10 +31,6 @@ header {
     justify-content: space-between;
 }
 
-/* .age {
-    margin: 1rem 2rem;
-} */
-
 .filter_title {
     font-weight: bold;
     margin-top: 1rem;
@@ -77,9 +73,9 @@ header {
 }
 
 .nav {
+    margin-top: 2rem;
     display: flex;
     justify-content: space-between;
-    
 }
 
 .donate {
