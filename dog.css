@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', Oswald;
+}
+
+header {
+    background-color: rgb(23, 62, 115);
+    color: white;
+    padding: 2rem;
+}
+
+.intro_title {
+    margin: 1rem 2rem;
+}
+
+.intro_text {
+    margin: 1rem 2rem;
+}
+
+.filters {
+    background-color: rgb(225, 222, 223);
+    margin: 1rem 2rem;
+    padding: 2rem 1rem;
+}
+
+.filters_box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* .age {
+    margin: 1rem 2rem;
+} */
+
+.filter_title {
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.dog_box {
+    margin: 1rem 2rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dog_pics {
+    max-width: 32%;
+    margin-right: .5rem;
+}
+
+.image {
+    width: 100%; 
+    height: auto;
+}
+
+.dog_name {
+    font-weight: bold;
+}
+
+.attributes_box {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: .5rem;
+}
+
+.dog_attributes {
+    font-family: Oswald;
+    font-size: .8rem;
+    margin-right: .5rem;
+    margin-top: .2rem;
+    padding: .2rem;
+    background-color: rgb(144, 221, 240);
+    border-radius: 10px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.donate {
+    width: 33.33%;
+    height: 300px;
+    text-align: center;
+    padding-top: 8em;
+    color: white;
+    background-image: url(starter_files/images/donate.jpg);
+    background-color: rgb(167, 166, 242);
+    opacity: 1;
+}
+
+.volunteer {
+    width: 33.33%;
+    height: 300px;
+    text-align: center;
+    padding-top: 8em;
+    color: white;
+    background-image: url(starter_files/images/volunteer.jpg);
+}
+
+.our_location {
+    width: 33.33%;
+    height: 300px;
+    text-align: center;
+    padding-top: 8em;
+    color: white;
+    background-image: url(starter_files/images/location.png);
+}
+
+.nav a:-webkit-any-link {
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.transparent {
+    background-color: rgb(167, 166, 242);
+    opacity: .5;
+}
